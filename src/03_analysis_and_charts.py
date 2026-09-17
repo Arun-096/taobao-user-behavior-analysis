@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-03_analysis_and_charts.py —— Python 连库分析 + Matplotlib 可视化
-做的事：连接 SQLite -> 用 pandas 读 SQL 结果 -> 画 6 张图存到 output/ -> 终端打印业务结论
-运行：python src/03_analysis_and_charts.py
+03_analysis_and_charts.py — SQL查询分析 + Matplotlib可视化
+输出6张图表：PV/UV趋势、时段活跃、转化漏斗、RFM分层、Top10类目、行为分布
 """
 import os
 import sqlite3
 import matplotlib
-matplotlib.use("Agg")  # 不弹窗、直接存图片
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 

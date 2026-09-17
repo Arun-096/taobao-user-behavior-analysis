@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-02_load_to_db.py —— 清洗后 CSV 入库到 SQLite
-做的事：读取 my_clean.csv -> 建表 -> 批量插入 -> 建索引 -> 校验
-运行：python src/02_load_to_db.py
-前置：先运行 01_clean_data.py 生成 data/my_clean.csv
+02_load_to_db.py — 清洗后数据入库 SQLite
+流程：读取CSV → 建表 → 批量插入 → 建索引 → 入库校验
 """
 import os
 import sqlite3
