@@ -1,0 +1,43 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据文件（太大，不上传）
+data/*.db
+data/*.csv
+data/*.sqlite
+data/*.sqlite3
+
+# 输出文件（如果不想上传图片可以取消注释）
+# output/*.png
+# output/*.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.bak
+*.old
